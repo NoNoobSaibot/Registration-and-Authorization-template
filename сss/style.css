@@ -1,0 +1,92 @@
+html{
+	font-family: "Arial Rounded MT Bold",sans-serif;
+}
+
+body{
+	display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+label{
+	margin-left: 15px; 
+	margin-top: 6px;
+	font-size: 14px;
+}
+
+.container_form{
+	padding: 30px;
+	line-height: 1.5em;
+	border: 1px solid #d2e1f4ff;
+	border-radius: 6px;
+	box-shadow: 0 0 10px #bcbad0ff;
+}
+.container_form_link{
+	margin: 8px;
+}
+
+a{
+	color: #7678d3ff;
+	font-size: 14px;
+}
+a:hover{
+	text-decoration: underline;
+	color: #0055ffff;
+}
+
+button{
+	
+	margin: 14px auto;
+	padding: 5px 10px;
+	background-color:#7897b9ff;
+	color:#e8e8e8ff;
+	outline: solid;
+	
+
+}
+
+button:hover{
+	background-color:#91b6deff;
+}
+
+.btns_registration{
+	margin-top:10px;
+	display: flex;
+}
+
+#btn_save{
+	background-color: #58af86ff;
+}
+
+#btn_save:hover{
+	background-color: #6ad3a0ff;
+}
+
+input{
+	padding: 8px;
+	background-color:#dad9efff;
+	border-bottom: 1px solid #00aaffff;
+	border-radius: 2px;
+	margin-bottom: 6px;
+	
+	
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+span{
+	color:red;
+	font-size: 12px;
+	word-wrap: break-word;
+	width: 90%;
+}
