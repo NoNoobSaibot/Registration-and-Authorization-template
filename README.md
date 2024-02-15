@@ -1,8 +1,8 @@
 # This is template view and process forms authorization and registration. (procedural programming style)
 
-*Этот шаблон был разработан с целью дальнейшего использования в других проектах. 
+*This template was developed for further use in other projects.
 
-## Используемый стек технологий:
+## The technology stack used:
 
 - PHP 8.3.1 (Thread Safe for Windows OS)
 - Apache 2.4.58 win64
@@ -10,56 +10,56 @@
 - JS
 - MYSQL 8.3
   
-## Структура проекта (без углубления в детали):
+## Project structure (without going into details):
 
-(HTML структура)
-Форма Авторизации:
-  * Поле Логин
-  * Поле Пароль
-  * Кнопка Отправить
-  * Ссылка на регистрацию
-Форма Регистрация:
-  * Поле Имя
-  * Поле Номер телефона
-  * Поле Логин
-  * Поле Пароль
-  * Поле Повторите пароль
-  * Кнопка сохранить
-  * Кнопка Назад (на страницу авторизации)
+(HTML structure)
+Authorization Form:
+ * Login field
+ * Password Field
+ * Send Button
+ * Link to registration
+Registration Form:
+ * Name Field
+ * Phone Number field
+ * Login field
+ * Password field
+ * Repeat Password field
+ * Save button
+ * Back button (to the authorization page)
 
-(CSS структура)
-  Стили применяются для страниц:
-  * index.php
-  * registration.php
+(CSS structure)
+Styles are applied to pages:
+* index.php
+* registration.php
     
-(PHP структура)
+(PHP structure)
 
 
- Авторизация * auth.php:
-      1. фильтрация данных на стороне сервера
-      2. подготовка и отправка sql запроса SELECT (выборка по логину и паролю)
-      3. получение и обработка результата
+ Authorization * auth.php  
+1. Server-side data filtering   
+2. preparing and sending the sql SELECT query (selection by username and password)  
+3. receiving and processing the result  
 
-      
-Регистрация * datasend.php:
-      1. фильтрация данных на стороне сервера
-      2. подготовка и отправка нескольких sql запросов SELECT (выборка по логину), INSERT (сохранение всех данных из формы)
-      3. обработка результата
+ 
+Registration * datasend.php  
+1. Server-side data filtering  
+2. preparing and sending several sql queries SELECT (login selection), INSERT (saving all data from the form)  
+3. processing the result  
 
-      
-Главная страница пользователя * main.php:
-      1. Приветственный текст
+ 
+The user's home page * main.php  
+1. Welcome text  
 
-      
-Страница авторизации * index.php:
-      1. Форма авторизации
+ 
+Authorization page * index.php:  
+1. Authorization form  
 
-      
-Страница регистрации * registrarion.php:
-      1. Форма регистрации
+ 
+Registration page * registrarion.php:  
+1. Registration form  
 
-      
-Уничтожение сессии * outaccount.php:
-      1. Выход на страницу авторизации
-      2. Очистка данных сессии
+ 
+Session destruction * outaccount.php:  
+1. Log out to the authorization page  
+2. Clearing session data  
     
