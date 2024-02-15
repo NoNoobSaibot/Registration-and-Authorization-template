@@ -31,6 +31,10 @@ Registration Form:
 Styles are applied to pages:
 * index.php
 * registration.php
+
+  ![image](https://github.com/NoNoobSaibot/Registration-and-Authorization-template/assets/157010652/3445d526-9a1a-4972-9b83-c4596110b70d)
+  ![image](https://github.com/NoNoobSaibot/Registration-and-Authorization-template/assets/157010652/5065b395-5410-4a36-b5a0-2b854bd938a5)
+
     
 (PHP structure)
 
